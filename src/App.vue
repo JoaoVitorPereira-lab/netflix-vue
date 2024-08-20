@@ -68,8 +68,8 @@ onMounted(() => {
 
       </div>
 
-      <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-auto">
-        <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-auto">
+      <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-auto .no-scrollbar::-webkit-scrollbar no-scrollbar">
+        <div class="fixed z-30 bottom-0 right-0 w-full h-[55%] pl-[120px] overflow-y-auto .no-scrollbar::-webkit-scrollbar no-scrollbar">
           <VideoCarousel class="pb-14 pt-14" category="Filmes populares" :movies="movies[0]" />
           <VideoCarousel class="pb-14" category="Filmes de dramas" :movies="movies[1]" />
           <VideoCarousel class="pb-32" category="Lançamentos" :movies="movies[2]" />
